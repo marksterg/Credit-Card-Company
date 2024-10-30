@@ -16,8 +16,8 @@ This project was developed for a university course and involves creating a web a
 
 ## Run
 
-- Copy the `ccc/` folder into `{path_to_xampp}/xampp/htdocs/`
-- On a browser open: `localhost/ccc/index.php`
+- Copy the `ccc/` folder into `{PATH_TO_XAMPP_FOLDER}/htdocs/`
+- Navigate: `localhost/ccc/index.php`
 
 ### Routes/Pages
 
