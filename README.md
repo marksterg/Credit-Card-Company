@@ -10,19 +10,33 @@ This project was developed for a university course and involves creating a web a
 
 ![Screenshot](er.png)
 
-## Setup
+## Setup (Windows)
 
-- **XAMPP**
+- Setup **XAMPP**: <https://www.apachefriends.org/faq_windows.html>
 
 ## Run
 
-- Copy the `ccc/` folder into `{PATH_TO_XAMPP_FOLDER}/htdocs/`
-- Navigate: `localhost/ccc/index.php`
+1. Copy the `ccc/` folder into `{XAMPP_FOLDER}/htdocs/`
+2. Open XAMPP Control Panel as **Administrator**.
+3. `Start` the **Apache** and **MySQL** services.
+4. Open: `localhost/ccc/index.php`
+   - **Routes/Pages**
+     - `/index.php` -> main page
+     - `/account.php` -> register / close account
+     - `/transactions.php` -> buy / refund transactions, payoff procedure
+     - `/queries.php` -> status reports for transactions
+     - `/info.php` -> state of good clients / bad clients / seller of the month
 
-### Routes/Pages
+5. (**Optional**) You can view and interact with the database through `http://localhost/phpmyadmin/index.php` page.
 
-- `/index.php` -> main page
-- `/account.php` -> register / close account
-- `/transactions.php` -> buy / refund transactions, payoff procedure
-- `/queries.php` -> status reports for transactions
-- `/info.php` -> state of good clients / bad clients / seller of the month
+## Misc
+
+For more details about the project structure see the PDF [report](report.pdf) file.
+
+- **Sample Versions**:
+
+    ```notes
+    XAMPP v3.3.0
+    PHP v8.2.12
+    MySQL (MariaDB) v10.4.32
+    ```
