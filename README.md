@@ -4,7 +4,7 @@
 
 ## About
 
-This project was developed for a university course and involves creating a web application that enables direct communication with a **MySQL** relational database. The application handles financial transactions between clients and sellers for a company named *Credit-Card-Company (CCC)*.
+This project was developed for a university course and involves creating a web application simulating Client-Seller payments and providing useful statistics. Core of this project is the design of a relational model using **MySQL** database to store and maintain all the transactions.
 
 ## Database ER Model
 
