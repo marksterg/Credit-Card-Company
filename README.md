@@ -21,8 +21,8 @@ This project was developed for a university course and involves creating a web a
 
 ### Routes/Pages
 
-- `index.php` -> main page
-- `account.php` -> register / close account
-- `transactions.php` -> buy / refund transactions, payoff procedure
-- `queries.php` -> status reports for transactions
-- `info.php` -> state of good clients / bad clients / seller of the month
+- `/index.php` -> main page
+- `/account.php` -> register / close account
+- `/transactions.php` -> buy / refund transactions, payoff procedure
+- `/queries.php` -> status reports for transactions
+- `/info.php` -> state of good clients / bad clients / seller of the month
