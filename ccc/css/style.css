@@ -1,0 +1,106 @@
+body {
+    background-color: rgb(171, 218, 204);
+    /*background-color: rgb(41, 41, 41);*/
+}
+
+label {
+    display: -webkit-box;
+    margin-left: 10px;
+}
+
+#index_container {
+    text-align: center;
+}
+
+#index_container .row {
+    display: block ruby;
+}
+
+#index_container .col-md-3 {
+    margin: 3px auto;
+}
+
+h1 {
+    margin-bottom: 35px;
+}
+
+#index_container {
+    margin-top: 100px;
+}
+
+#register_form {
+    margin-top: 25px;
+}
+
+.table {
+    background-color: rgb(102, 181, 189);
+    border-radius: 5px;
+}
+
+.table th {
+    border: 0;
+}
+
+.alert {
+    border: 0;
+}
+
+.alert_form_div {
+    text-align: center;
+}
+
+.alert_form_div #success_message {
+    background-color: #64cc4a;
+}
+
+.alert_form_div #error_message {
+    background-color: #e95656;
+}
+
+.card {
+    box-shadow: 2px 2px 10px #DADADA;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 5px;
+    transition: .3s linear all;
+}
+
+.card-body {
+    padding: 8px;
+}
+
+.card-body i {
+    color: #FFF;
+    font-size: 3em;
+    opacity: 0.8;
+}
+
+#initDB .card-body,
+#dropDB .card-body,
+#db_status .card-body {
+    display: block ruby;
+}
+
+#initDB .card-body i,
+#dropDB .card-body i,
+#db_status .card-body i {
+    font-size: 2em;
+}
+
+#db_status .card-body i {
+    color: rgb(0, 0, 0);
+}
+
+.card-body .card-name {
+    color: #FFF;
+    right: 35px;
+    top: 40px;
+    text-transform: capitalize;
+    display: block;
+    font-size: 20px;
+}
+
+.container a {
+    text-decoration: none;
+}
